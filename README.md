@@ -1,7 +1,7 @@
-# # Проект yamdb_final
-![yamdb_workflow](https://github.com/mtedoradze/yamdb_final/tree/master/.github/workflows/yamdb_workflow.yml/badge.svg)
+# Проект yamdb_final
+![Django-app workflow](https://github.com/mtedoradze/yamdb_final/actions/workflows/yamdb_workflow.yml)
 
-**## Описание проекта**
+## Описание проекта
 Для проекта  API_yamdb настроен поток _Continuous Integration_ и _Continuous Deployment_, который включает:
 * автоматический запуск тестов,
 * обновление образов на Docker Hub,
@@ -12,7 +12,7 @@
 Сами произведения в YaMDb не хранятся, здесь нельзя посмотреть фильм или послушать музыку.
 Благодарные или возмущённые пользователи оставляют к произведениям текстовые отзывы и ставят произведению оценку в диапазоне от одного до десяти.
 
-**## Технологии в проекте:**
+## Технологии в проекте:
 Python 3.7, 
 Django 3.2, 
 Docker, 
@@ -20,10 +20,10 @@ Unicorn,
 Nginx,
 DevOps (CI/CD)
 
-**## Шаблон наполнения env-файла:**
+## Шаблон наполнения env-файла:
 См. файл .env.example
 
-**## Установка:**
+## Установка
 1. Клонировать репозиторий и перейти в него в командной строке:
 `git@github.com:mtedoradze/infra_sp2.git`
 2. Cоздать и активировать виртуальное окружение:
@@ -42,3 +42,4 @@ DevOps (CI/CD)
 `docker-compose exec web python manage.py collectstatic —no-input `
 8. Документация по проекту:
  [http://localhost/redoc/](_http://localhost/redoc/_)  
+
