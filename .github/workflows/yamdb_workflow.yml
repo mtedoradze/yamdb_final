@@ -39,7 +39,7 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
       - name: Pull or build from Docker Hub
-        uses: docker/docker-buildx-pull-or-build@v0.3
+        uses: djbender/docker-buildx-pull-or-build@v0.3
         with:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
