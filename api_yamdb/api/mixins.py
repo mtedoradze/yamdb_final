@@ -1,8 +1,7 @@
+from api.permissions import IsAdminOrReadOnly
 from rest_framework import filters, mixins
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.viewsets import GenericViewSet
-
-from api.permissions import IsAdminOrReadOnly
 
 
 class CreateListDestroySet(

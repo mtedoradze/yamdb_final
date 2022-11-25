@@ -1,10 +1,10 @@
+from api.permissions import UserPermission
 from django.contrib.auth import authenticate
 from django.core.mail import send_mail
 from rest_framework import exceptions, serializers
 from rest_framework_simplejwt.serializers import PasswordField
 from rest_framework_simplejwt.tokens import AccessToken
 
-from api.permissions import UserPermission
 from .models import User
 
 

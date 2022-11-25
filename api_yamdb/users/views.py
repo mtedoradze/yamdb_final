@@ -1,11 +1,10 @@
+from api.permissions import AdminPermission, UserPermission
 from django.http import JsonResponse
 from rest_framework import filters, permissions, status, viewsets
 from rest_framework.decorators import action
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework_simplejwt.views import TokenObtainPairView
-
-from api.permissions import AdminPermission, UserPermission
 
 from .models import User
 from .serializers import (CreateUserSerializer, CustomTokenObtainSerializer,
