@@ -43,7 +43,7 @@ jobs:
         with:
           docker_username: ${{ secrets.DOCKER_USERNAME }}
           docker_password: ${{ secrets.DOCKER_PASSWORD }}
-          dockerfile: ../api_yamdb
+          dockerfile: ../api_yamdb/Dockerfile
           image: mtedoradze/yamdb
 
   deploy:
