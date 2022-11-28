@@ -1,5 +1,5 @@
 # Проект yamdb_final
-![Django-app workflow](https://github.com/mtedoradze/yamdb_final/actions/workflows/yamdb_workflow.yml)
+![Django-app workflow](https://github.com/mtedoradze/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 ## Описание проекта
 Для проекта  API_yamdb настроен поток _Continuous Integration_ и _Continuous Deployment_, который включает:
@@ -25,7 +25,7 @@ DevOps (CI/CD)
 
 ## Установка
 1. Клонировать репозиторий и перейти в него в командной строке:
-`git@github.com:mtedoradze/infra_sp2.git`
+`git@github.com:mtedoradze/yamdb_final.git`
 2. Cоздать и активировать виртуальное окружение:
 `python3 -m venv env`
 `source env/bin/activate`
@@ -41,5 +41,5 @@ DevOps (CI/CD)
 7. Собрать статику:
 `docker-compose exec web python manage.py collectstatic —no-input `
 8. Документация по проекту:
- [http://localhost/redoc/](_http://localhost/redoc/_)  
+ [http://localhost:5000/redoc/](_http://localhost:5000/redoc/_)  
 

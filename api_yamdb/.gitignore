@@ -146,6 +146,6 @@ dmypy.json
 .mypy_cache
 
 # папки со статикой и медиа
-media/
+# media/
 
-api_yamdb/static/data/.~lock.review.csv
+# api_yamdb/static/data/.~lock.review.csv
