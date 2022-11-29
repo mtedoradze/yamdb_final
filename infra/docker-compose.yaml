@@ -6,7 +6,7 @@ services:
     env_file:
       - ./.env
   web:
-    image: mtedoradze/yamdb:v1.1-arm64
+    image: mtedoradze/yamdb:v1.1
     restart: always
     volumes:
       - static_value:/app/static/
