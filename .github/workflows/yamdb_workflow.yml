@@ -45,7 +45,7 @@ jobs:
         with:
           file: ./api_yamdb/Dockerfile
           push: true
-          tags: mtedoradze/yamdb:v1.0
+          tags: mtedoradze/yamdb:v1.1-arm64
 
   deploy:
     runs-on: ubuntu-latest
@@ -61,7 +61,7 @@ jobs:
         script: |
           sudo docker-compose stop
           sudo docker-compose rm web
-          sudo docker-compose pull mtedoradze/yamdb:v1.0
+          sudo docker-compose pull mtedoradze/yamdb:v1.1-arm64
           touch .env
           echo DB_ENGINE=${{ secrets.DB_ENGINE }} >> .env
           echo DB_NAME=${{ secrets.DB_NAME }} >> .env

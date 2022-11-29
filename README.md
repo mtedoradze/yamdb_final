@@ -41,5 +41,5 @@ DevOps (CI/CD)
 7. Собрать статику:
 `docker-compose exec web python manage.py collectstatic —no-input `
 8. Документация по проекту:
- [http://localhost:5000/redoc/](_http://localhost:5000/redoc/_)  
+ [http://localhost/redoc/](_http://localhost/redoc/_)  
 
