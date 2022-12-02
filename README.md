@@ -12,7 +12,7 @@
 Сами произведения в YaMDb не хранятся, здесь нельзя посмотреть фильм или послушать музыку.
 Благодарные или возмущённые пользователи оставляют к произведениям текстовые отзывы и ставят произведению оценку в диапазоне от одного до десяти.
 
-Адрес админ-зоны проекта: http://158.160.17.251/admin.
+Документация по проекту: http://yamdbforfriends.ddns.net/redoc.
 
 ## Технологии в проекте:
 Python 3.7, 
@@ -42,6 +42,3 @@ DevOps (CI/CD)
 `docker-compose exec web python manage.py createsuperuser`
 7. Собрать статику:
 `docker-compose exec web python manage.py collectstatic —no-input `
-8. Документация по проекту:
- [http://localhost/redoc/](_http://localhost/redoc/_)  
-
